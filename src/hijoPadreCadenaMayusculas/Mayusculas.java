@@ -35,9 +35,9 @@ public class Mayusculas {
 				BufferedReader br = new BufferedReader(isr);
 				String linea;
 				
-//					while((linea = br.readLine()) != null) {
-//						System.out.println(linea);
-//					}
+					while((linea = br.readLine()) != null) {
+						System.out.println(linea);
+					}
 				
 			} catch (IOException e) {
 				e.printStackTrace();

@@ -9,11 +9,11 @@ public class Hijo {
 		
 		Scanner teclado = new Scanner(System.in);
 //		
-//		System.out.println(teclado.nextLine().toUpperCase());
-//		System.out.println(teclado.nextLine().toUpperCase());
+		System.out.println(teclado.nextLine().toUpperCase());
+		System.out.println(teclado.nextLine().toUpperCase());
 		
 		String cadena = null;
-		cadena = teclado.nextLine();
+		//cadena = teclado.nextLine();
 		
 		while(!cadena.equalsIgnoreCase("fin")) {
 			System.out.println(cadena.toUpperCase());
